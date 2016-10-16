@@ -43,7 +43,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(ProjectDir)\Include;$(IncludePath)</IncludePath>
     <ReferencePath>$(ProjectDir)\Refrences;$(ReferencePath)</ReferencePath>
-    <LibraryPath>C:\Users\MRL-SSL1\Documents\Visual Studio 2010\Projects\SphericalViewer\SphericalViewer\Lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(ProjectDir)\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
